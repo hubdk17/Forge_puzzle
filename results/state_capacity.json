@@ -1,0 +1,57 @@
+[
+  {
+    "state_size": 32,
+    "test_exact_match": 0.27,
+    "test_cell_accuracy": 0.9298,
+    "novelty_exact_match": 0.0,
+    "novelty_cell_accuracy": 0.609,
+    "test_latency_ms": 1.19,
+    "novelty_latency_ms": 1.29,
+    "best_val_exact": 0.1641,
+    "param_count": 245003
+  },
+  {
+    "state_size": 64,
+    "test_exact_match": 0.35,
+    "test_cell_accuracy": 0.9512,
+    "novelty_exact_match": 0.0,
+    "novelty_cell_accuracy": 0.6008,
+    "test_latency_ms": 1.26,
+    "novelty_latency_ms": 1.27,
+    "best_val_exact": 0.212,
+    "param_count": 287179
+  },
+  {
+    "state_size": 128,
+    "test_exact_match": 0.315,
+    "test_cell_accuracy": 0.944,
+    "novelty_exact_match": 0.0,
+    "novelty_cell_accuracy": 0.6122,
+    "test_latency_ms": 1.31,
+    "novelty_latency_ms": 1.36,
+    "best_val_exact": 0.1868,
+    "param_count": 389963
+  },
+  {
+    "state_size": 256,
+    "test_exact_match": 0.32,
+    "test_cell_accuracy": 0.9428,
+    "novelty_exact_match": 0.0,
+    "novelty_cell_accuracy": 0.6056,
+    "test_latency_ms": 1.38,
+    "novelty_latency_ms": 1.15,
+    "best_val_exact": 0.1678,
+    "param_count": 669259
+  },
+  {
+    "state_size": 512,
+    "test_exact_match": 0.17,
+    "test_cell_accuracy": 0.9256,
+    "novelty_exact_match": 0.0,
+    "novelty_cell_accuracy": 0.614,
+    "test_latency_ms": 3.79,
+    "novelty_latency_ms": 3.87,
+    "best_val_exact": 0.1338,
+    "param_count": 1522763
+  }
+]

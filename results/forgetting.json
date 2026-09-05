@@ -1,0 +1,31 @@
+{
+  "experiments": [
+    {
+      "model": "optimization",
+      "old_task": "translate",
+      "new_task": "recolor",
+      "gradient_steps_adaptation": 10,
+      "accuracy_before": 0.0,
+      "accuracy_after": 0.0,
+      "forgetting": 0.0,
+      "cell_acc_before": 0.5048,
+      "cell_acc_after": 0.49
+    },
+    {
+      "model": "context",
+      "old_task": "translate",
+      "new_task": "recolor",
+      "gradient_steps_adaptation": 0,
+      "accuracy_before": 0.98,
+      "accuracy_after": 0.98,
+      "forgetting": 0.0,
+      "cell_acc_before": 0.9992,
+      "cell_acc_after": 0.9992
+    }
+  ],
+  "summary": {
+    "optimization_forgetting": 0.0,
+    "context_forgetting": 0.0,
+    "note": "Positive forgetting = accuracy decreased after adaptation. Context model forgetting should be 0 since weights are frozen."
+  }
+}

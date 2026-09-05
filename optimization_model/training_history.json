@@ -1,0 +1,112 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.096233922019601,
+    "val": {
+      "loss": 1.093821829954783,
+      "exact_match": 0.0,
+      "cell_accuracy": 0.3990666666666667,
+      "n_evaluated": 300
+    },
+    "elapsed": 13.862526416778564
+  },
+  {
+    "epoch": 2,
+    "train_loss": 1.0949140364676715,
+    "val": {
+      "loss": 1.0906452957789103,
+      "exact_match": 0.0,
+      "cell_accuracy": 0.424,
+      "n_evaluated": 300
+    },
+    "elapsed": 10.510664463043213
+  },
+  {
+    "epoch": 3,
+    "train_loss": 1.092396734058857,
+    "val": {
+      "loss": 1.0877129666010539,
+      "exact_match": 0.0,
+      "cell_accuracy": 0.4444,
+      "n_evaluated": 300
+    },
+    "elapsed": 4.836539268493652
+  },
+  {
+    "epoch": 4,
+    "train_loss": 1.0906552574038506,
+    "val": {
+      "loss": 1.0846623027324676,
+      "exact_match": 0.0,
+      "cell_accuracy": 0.46173333333333333,
+      "n_evaluated": 300
+    },
+    "elapsed": 9.182838678359985
+  },
+  {
+    "epoch": 5,
+    "train_loss": 1.0889027301222085,
+    "val": {
+      "loss": 1.0817845714092256,
+      "exact_match": 0.0,
+      "cell_accuracy": 0.4745333333333333,
+      "n_evaluated": 300
+    },
+    "elapsed": 4.696842432022095
+  },
+  {
+    "epoch": 6,
+    "train_loss": 1.0873973060399293,
+    "val": {
+      "loss": 1.078749812444051,
+      "exact_match": 0.0,
+      "cell_accuracy": 0.48306666666666664,
+      "n_evaluated": 300
+    },
+    "elapsed": 3.623058557510376
+  },
+  {
+    "epoch": 7,
+    "train_loss": 1.0858819777518511,
+    "val": {
+      "loss": 1.0757860525449117,
+      "exact_match": 0.0,
+      "cell_accuracy": 0.49093333333333333,
+      "n_evaluated": 300
+    },
+    "elapsed": 3.4473283290863037
+  },
+  {
+    "epoch": 8,
+    "train_loss": 1.084086486250162,
+    "val": {
+      "loss": 1.072834958632787,
+      "exact_match": 0.0,
+      "cell_accuracy": 0.4976,
+      "n_evaluated": 300
+    },
+    "elapsed": 3.3222694396972656
+  },
+  {
+    "epoch": 9,
+    "train_loss": 1.0812728820741178,
+    "val": {
+      "loss": 1.0696206168333688,
+      "exact_match": 0.0,
+      "cell_accuracy": 0.5054666666666666,
+      "n_evaluated": 300
+    },
+    "elapsed": 3.3550796508789062
+  },
+  {
+    "epoch": 10,
+    "train_loss": 1.0803111384809017,
+    "val": {
+      "loss": 1.066583757797877,
+      "exact_match": 0.0,
+      "cell_accuracy": 0.514,
+      "n_evaluated": 300
+    },
+    "elapsed": 3.4656288623809814
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "seed": 42,
+  "num_per_param": 1500,
+  "num_demos": 5,
+  "split_ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "per_rule_stats": {
+    "translate": {
+      "train_params": 8,
+      "novelty_params": 8,
+      "train_instances": 8400,
+      "val_instances": 1800,
+      "test_instances": 1800,
+      "novelty_instances": 12000
+    },
+    "mirror": {
+      "train_params": 2,
+      "novelty_params": 0,
+      "train_instances": 2100,
+      "val_instances": 450,
+      "test_instances": 450,
+      "novelty_instances": 0
+    },
+    "recolor": {
+      "train_params": 3,
+      "novelty_params": 2,
+      "train_instances": 3150,
+      "val_instances": 675,
+      "test_instances": 675,
+      "novelty_instances": 3000
+    }
+  },
+  "total_counts": {
+    "train": 13650,
+    "validation": 2925,
+    "test": 2925,
+    "novelty": 15000
+  },
+  "novelty_definition": {
+    "translate": "magnitudes 3 and 4 (train uses only 1 and 2)",
+    "mirror": "no novelty params (only 2 total params)",
+    "recolor": "last 2 of 5 non-identity permutations held out"
+  },
+  "train_params": {
+    "translate": [
+      "{'direction': 'up', 'magnitude': 1}",
+      "{'direction': 'up', 'magnitude': 2}",
+      "{'direction': 'down', 'magnitude': 1}",
+      "{'direction': 'down', 'magnitude': 2}",
+      "{'direction': 'left', 'magnitude': 1}",
+      "{'direction': 'left', 'magnitude': 2}",
+      "{'direction': 'right', 'magnitude': 1}",
+      "{'direction': 'right', 'magnitude': 2}"
+    ],
+    "mirror": [
+      "{'axis': 'horizontal'}",
+      "{'axis': 'vertical'}"
+    ],
+    "recolor": [
+      "{'color_map': {0: 0, 1: 2, 2: 1}}",
+      "{'color_map': {0: 1, 1: 0, 2: 2}}",
+      "{'color_map': {0: 1, 1: 2, 2: 0}}"
+    ]
+  },
+  "novelty_params": {
+    "translate": [
+      "{'direction': 'up', 'magnitude': 3}",
+      "{'direction': 'up', 'magnitude': 4}",
+      "{'direction': 'down', 'magnitude': 3}",
+      "{'direction': 'down', 'magnitude': 4}",
+      "{'direction': 'left', 'magnitude': 3}",
+      "{'direction': 'left', 'magnitude': 4}",
+      "{'direction': 'right', 'magnitude': 3}",
+      "{'direction': 'right', 'magnitude': 4}"
+    ],
+    "mirror": [],
+    "recolor": [
+      "{'color_map': {0: 2, 1: 0, 2: 1}}",
+      "{'color_map': {0: 2, 1: 1, 2: 0}}"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "training_rules": [
+    "translate",
+    "mirror"
+  ],
+  "held_out_rule": "recolor",
+  "evaluations": [
+    {
+      "rule_type": "translate",
+      "split": "test",
+      "seen_during_training": true,
+      "exact_match": 0.12,
+      "cell_accuracy": 0.9,
+      "n_samples": 200
+    },
+    {
+      "rule_type": "translate",
+      "split": "novelty",
+      "seen_during_training": true,
+      "exact_match": 0.0,
+      "cell_accuracy": 0.6078,
+      "n_samples": 200
+    },
+    {
+      "rule_type": "mirror",
+      "split": "test",
+      "seen_during_training": true,
+      "exact_match": 0.0,
+      "cell_accuracy": 0.6556,
+      "n_samples": 200
+    },
+    {
+      "rule_type": "recolor",
+      "split": "test",
+      "seen_during_training": false,
+      "exact_match": 0.0,
+      "cell_accuracy": 0.3098,
+      "n_samples": 200
+    },
+    {
+      "rule_type": "recolor",
+      "split": "novelty",
+      "seen_during_training": false,
+      "exact_match": 0.0,
+      "cell_accuracy": 0.2816,
+      "n_samples": 200
+    }
+  ],
+  "note": "Novel parameter = known rule family + unseen parameter. Novel rule family = entire transformation family unseen during training. This experiment tests the latter."
+}
